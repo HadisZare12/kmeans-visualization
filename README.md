@@ -1,16 +1,46 @@
-# React + Vite
+# K-Means Clustering Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive visualization of the **K-Means clustering algorithm**, built with **React** and **SVG**, designed to help understand how centroids move and clusters converge step by step.
 
-Currently, two official plugins are available:
+![K-Means Demo](./demo.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Interactive K-Means clustering simulation
+- Step-by-step execution or auto-run
+- Adjustable number of clusters (K)
+- Real-time centroid updates
+- Visual point-to-centroid connections
+- Convergence detection
+- Clean, modern UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 How K-Means Works
+
+1. Initialize **K** random centroids
+2. Assign each point to the nearest centroid
+3. Move centroids to the mean of their assigned points
+4. Repeat until centroids stop moving (convergence)
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **Vite**
+- **SVG**
+- **Tailwind CSS (CDN)**
+- **Lucide Icons**
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/YOUR_USERNAME/kmeans-visualization.git
+cd kmeans-visualization
+npm install
+npm run dev
