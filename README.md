@@ -2,7 +2,7 @@
 
 An interactive visualization of the **K-Means clustering algorithm**, built with **React** and **SVG**, designed to help understand how centroids move and clusters converge step by step.
 
-![K-Means Demo](./demo.gif)
+![K-Means Demo](./kmeans.gif)
 
 ---
 
